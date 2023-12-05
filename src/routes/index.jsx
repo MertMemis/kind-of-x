@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/home";
 import Explore from "../pages/explore";
 import Notifications from "../pages/notifications";
+import NotFound from "../pages/not-found";
 
 const routes = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ const routes = createBrowserRouter([
     {
         path: '/notifications',
         element: <Notifications />
+    },
+    {
+        path: '*',
+        element: <NotFound />
     }
 ])
 
