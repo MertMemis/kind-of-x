@@ -22,16 +22,15 @@ export default function Menu() {
                                 d="M 21.591 7.146 L 12.52 1.157 c -0.316 -0.21 -0.724 -0.21 -1.04 0 l -9.071 5.99 c -0.26 0.173 -0.409 0.456 -0.409 0.757 v 13.183 c 0 0.502 0.418 0.913 0.929 0.913 h 6.638 c 0.511 0 0.929 -0.41 0.929 -0.913 v -7.075 h 3.008 v 7.075 c 0 0.502 0.418 0.913 0.929 0.913 h 6.639 c 0.51 0 0.928 -0.41 0.928 -0.913 V 7.904 c 0 -0.301 -0.158 -0.584 -0.408 -0.758 Z M 20 20 l -4.5 0.01 l 0.011 -7.097 c 0 -0.502 -0.418 -0.913 -0.928 -0.913 H 9.44 c -0.511 0 -0.929 0.41 -0.929 0.913 L 8.5 20 H 4 V 8.773 l 8.011 -5.342 L 20 8.764 Z"
                             />
                         </svg>)}
-                        <div className="pr-4 text-xl">
-                            Home
-                        </div>
-                    </div>
-                )}
-            </NavLink>
 
-                        {!isActive && (<svg viewBox="0 0 24 24" width={26.25} height={26.25}>
-                            <path
-                                fill="#e7e9ea"
+                        <div className="w-[26.25px] h-[26.25px] relative">
+
+                            {menu?.notification && <span className="w-[18px] h-[18px] rounded-full bg-[#1d9bf0] absolute text-[11px] -top-1.5 -right-1 flex items-center justify-center">{menu.notification}</span>}
+
+                            {isActive && menu.icon.active}
+                            {!isActive && menu.icon.passive}
+                        </div>
+
                         <div className="pr-4 text-xl">
                             {menu.title}
                         </div>
