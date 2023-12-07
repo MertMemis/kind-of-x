@@ -52,6 +52,11 @@ export default function Menu() {
                     </div>
                 )}
             </NavLink>
+            ))}
+
+            <More/>
+            <NewPost/>
+            
         </nav>
     )
 }
