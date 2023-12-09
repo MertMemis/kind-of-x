@@ -8,37 +8,37 @@ import NewPost from "./post"
 
 
 export default function Menu() {
-    return (
-        <nav className="mt-0.5 mb-1">
-            {mainMenu.map((menu, index) => (
-                <NavLink to={menu.path} className="py-[3px] block group">
-                {({isActive}) =>(
+	return (
+		<nav className="mt-0.5 mb-1">
+			{mainMenu.map((menu, index) => (
+				<NavLink to={menu.path} className="py-[3px] block group">
+					{({isActive}) =>(
 
-                    <div className={classNames("p-3 rounded-full transition-colors inline-flex items-center gap-5 group-hover:bg-[#eff3f41a]", {
-                        "font-bold": isActive
-                    })}>
+						<div className={classNames("p-3 rounded-full transition-colors inline-flex items-center gap-5 group-hover:bg-[#eff3f41a]", {
+							"font-bold": isActive
+						})}>
 
-                        <div className="w-[26.25px] h-[26.25px] relative">
+							<div className="w-[26.25px] h-[26.25px] relative">
 
-                            {menu?.notification && <span className="w-[18px] h-[18px] rounded-full bg-[#1d9bf0] absolute text-[11px] -top-1.5 -right-1 flex items-center justify-center">{menu.notification}</span>}
+								{menu?.notification && <span className="w-[18px] h-[18px] rounded-full bg-[#1d9bf0] absolute text-[11px] -top-1.5 -right-1 flex items-center justify-center">{menu.notification}</span>}
 
-                            {isActive && menu.icon.active}
-                            {!isActive && menu.icon.passive}
-                        </div>
+								{isActive && menu.icon.active}
+								{!isActive && menu.icon.passive}
+							</div>
 
-                        <div className="pr-4 text-xl">
-                            {menu.title}
-                        </div>
+							<div className="pr-4 text-xl">
+								{menu.title}
+							</div>
 
-                    </div> 
-                )}
-            </NavLink>
-            ))}
+						</div> 
+					)}
+				</NavLink>
+				))}
 
-            <More/>
-            <NewPost/>
-            
-        </nav>
-    )
+			<More/>
+			<NewPost/>
+				
+		</nav>
+	)
 }
 
