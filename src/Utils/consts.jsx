@@ -251,7 +251,7 @@ export const mainMenu = [
             </svg>
          )
       }
-   },
+   }
 
     
 ]
