@@ -206,8 +206,8 @@ export const mainMenu = [
    },
 
    {
-      path: '/messages',
-      title: 'Messages',
+      path: '/premium',
+      title: 'Premium',
       icon: {
          active: (
             <svg viewBox="0 0 24 24" width={26.25} height={26.25}>
