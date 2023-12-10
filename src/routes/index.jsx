@@ -32,6 +32,10 @@ const routes = createBrowserRouter([
             element: <Messages />
          },
          {
+            path: 'lists',
+            element: <Lists />
+         },
+         {
             path: '*',
             element: <NotFound />
          }
