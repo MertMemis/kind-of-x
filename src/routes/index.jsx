@@ -36,6 +36,10 @@ const routes = createBrowserRouter([
             element: <Lists />
          },
          {
+            path: 'bookmarks',
+            element: <Bookmarks />
+         },
+         {
             path: '*',
             element: <NotFound />
          }
