@@ -44,6 +44,10 @@ const routes = createBrowserRouter([
             element: <Communities />
          },
          {
+            path: ':slug',
+            element: <ProfilePage />
+         },
+         {
             path: '*',
             element: <NotFound />
          }
