@@ -4,6 +4,11 @@ import Explore from "../pages/explore";
 import Notifications from "../pages/notifications";
 import NotFound from "../pages/not-found";
 import MainLayout from "../layouts/main";
+import ProfilePage from "../pages/profile-page";
+import Messages from "../pages/messages"
+import Lists from "../pages/lists"
+import Bookmarks from "../pages/bookmarks"
+import Communities from "../pages/communities"
 
 const routes = createBrowserRouter([
    {
