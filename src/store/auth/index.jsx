@@ -22,3 +22,11 @@ const initialState = {
       },
    ]
 }
+      _setCurrentAccount: (state,action) => {
+         state.currentAccount = action.payload
+      }
+   }
+})
+
+export const { _addAccount, _setCurrentAccount, _removeAccount } = auth.actions
+export default auth.reducer
