@@ -40,6 +40,10 @@ const routes = createBrowserRouter([
             element: <Bookmarks />
          },
          {
+            path: 'communities',
+            element: <Communities />
+         },
+         {
             path: '*',
             element: <NotFound />
          }
