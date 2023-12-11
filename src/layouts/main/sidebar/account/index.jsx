@@ -22,6 +22,12 @@ export default function Account () {
                   </div>
                </div>
 
+               <svg viewBox="0 0 24 24" className="text-[#e7e9ea] ml-auto" width={18.75}>
+                  <path
+                     fill="currentColor"
+                     d="M 3 12 c 0 -1.1 0.9 -2 2 -2 s 2 0.9 2 2 s -0.9 2 -2 2 s -2 -0.9 -2 -2 Z m 9 2 c 1.1 0 2 -0.9 2 -2 s -0.9 -2 -2 -2 s -2 0.9 -2 2 s 0.9 2 2 2 Z m 7 0 c 1.1 0 2 -0.9 2 -2 s -0.9 -2 -2 -2 s -2 0.9 -2 2 s 0.9 2 2 2 Z"
+                  />
+               </svg>
                
             </Popover.Button>
             <Popover.Panel>
