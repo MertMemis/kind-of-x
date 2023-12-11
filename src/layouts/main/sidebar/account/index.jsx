@@ -30,9 +30,20 @@ export default function Account () {
                </svg>
                
             </Popover.Button>
-            <Popover.Panel>
-               hop
-            </Popover.Panel>
+            <Transition
+               enter="transition duration-200 ease-out"
+               enterFrom="transform opacity-0"
+               enterTo="transform opacity-100"
+               leave="transition duration-200 ease-out"
+               leaveFrom="transform opacity-200"
+               leaveTo="transform opacity-0"
+            >
+               <Popover.Panel className="absolute bottom-[90px] py-3 w-[300px] overflow-hidden left-1/2 -translate-x-1/2 shadow-box bg-black rounded-2xl">
+                  {({ close }) => (
+                     <AccPanel close={close} />
+                  )}
+               </Popover.Panel>
+            </Transition>
          </Popover>
       </div>
    )
