@@ -35,7 +35,7 @@ export default function Menu() {
 
 						</div> 
 					)}
-				</NavLink>
+				</NavLink> 
 				))}
 
 			<More/>
