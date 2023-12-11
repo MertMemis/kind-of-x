@@ -17,7 +17,7 @@ const initialState = {
       {
          id: 2,
          username: 'shabriri_girl',
-         fullName: 'FrenzyHyetta',
+         fullName: 'FrenziedHyetta',
          avatar: 'https://www.gamerguides.com/assets/media/14/530/Hyetta.png'
       },
    ]
