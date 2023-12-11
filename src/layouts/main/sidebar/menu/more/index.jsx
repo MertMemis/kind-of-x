@@ -57,8 +57,6 @@ export default function More() {
 							</svg>
 						</Disclosure.Button>
 
-						<Disclosure.Panel className="text-gray-500">
-							<Link to="/" className="flex items-center px-3 h-11 gap-3 text[15px] font-medium hover:bg-[#eff3f41a] transition-colors text-white">
 								<svg viewBox="0 0 24 24" width={18.75} height={18.75} >
 									<path 
 										fill="currentColor"
