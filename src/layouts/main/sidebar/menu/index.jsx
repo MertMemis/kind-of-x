@@ -1,13 +1,16 @@
 import { NavLink } from "react-router-dom"
 import classNames from "classnames"
 import { mainMenu } from "../../../../Utils/consts"
-import Button from "../../../../components/button"
 import More from "./more"
 import NewPost from "./post"
+import { useAccount } from "../../../../store/auth/hooks"
 
 
 
 export default function Menu() {
+
+	const account = useAccount()
+
 	return (
 		<nav className="mt-0.5 mb-1">
 			{mainMenu.map((menu, index) => (
