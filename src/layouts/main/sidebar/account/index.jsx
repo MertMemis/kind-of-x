@@ -1,5 +1,6 @@
-import { Popover } from "@headlessui/react"
+import { Popover, Transition } from "@headlessui/react"
 import { useAccount } from "../../../../store/auth/hooks"
+import AccPanel from "./more"
 
 
 export default function Account () {
