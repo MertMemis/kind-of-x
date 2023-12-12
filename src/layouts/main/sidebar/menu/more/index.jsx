@@ -97,7 +97,7 @@ export default function More() {
 							   </svg>
 							   Ads
 						   </Link>
-					   </Disclosure.Panel>
+					   </Disclosure.Panel> 
                </>
                )}
 				</Disclosure>
