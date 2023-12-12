@@ -153,6 +153,8 @@ export const mainMenu = [
                />
             </svg>
          )
+      }
+   },
 
    {
       path: '/lists',
