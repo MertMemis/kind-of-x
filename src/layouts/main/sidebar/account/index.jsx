@@ -11,7 +11,6 @@ export default function Account () {
       <div className=" mt-auto">
          <Popover className="relative">
             <Popover.Button 
-               className="my-3 p-3 rounded-full hover:bg-[#eff3f41a] transition-colors w-full flex text-left items-center outline-none"
             >
                <img src={account.avatar} className=" w-10 h-10 rounded-full" alt="" />
                <div className=" mx-3 text-[15px]">
