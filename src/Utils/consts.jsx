@@ -91,7 +91,7 @@ export const mainMenu = [
         }
    },
 
-    {
+   {
       path: '/notifications',
       title:'Notifications',
       notification: 4,
