@@ -129,7 +129,10 @@ export const mainMenu = [
             </svg>
          )
       }
-    },
+   },
+
+   {
+      path: '/messages',
 
    {
       path: '/lists',
