@@ -14,7 +14,6 @@ export default function Menu() {
 	return (
 		<nav className="mt-0.5 mb-1" key={account}>
 			{mainMenu.map((menu, index) => (
-				<NavLink key={index} to={typeof menu.path === 'function' ? menu.path() : menu.path} className="py-[3px] block group">
 				<NavLink key={index} to={typeof menu.path === 'function' ? menu.path() : menu.path} className="block group">
 					{({isActive}) =>(
 
