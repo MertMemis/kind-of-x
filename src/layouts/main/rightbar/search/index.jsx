@@ -2,6 +2,10 @@ export default function Search () {
 
    
 
+   return (
+      <div className=" min-h-[32px] h-[53px] mb-3 flex items-center">
+         <label className=" relative h-[43px] rounded-full bg-[#202327] block w-full group border border-transparent focus-within:border-[#1d9bf0]">
+            <div className="w-[56px] h-full flex items-center justify-center absolute top-0 left-0">
                <svg viewBox="0 0 24 24" className=" min-w-[32px] text-[#71767b]" width={18.75} height={18.75}>
                   <path 
                      fill="currentColor"
