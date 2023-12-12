@@ -15,6 +15,7 @@ export default function Menu() {
 		<nav className="mt-0.5 mb-1" key={account}>
 			{mainMenu.map((menu, index) => (
 				<NavLink key={index} to={typeof menu.path === 'function' ? menu.path() : menu.path} className="py-[3px] block group">
+				<NavLink key={index} to={typeof menu.path === 'function' ? menu.path() : menu.path} className="block group">
 					{({isActive}) =>(
 
 						<div className={classNames("p-3 rounded-full transition-colors inline-flex items-center gap-5 group-hover:bg-[#eff3f41a]", {
