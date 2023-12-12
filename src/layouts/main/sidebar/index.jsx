@@ -5,7 +5,7 @@ import Menu from "./menu"
 
 export default function Sidebar() {
    return(
-      <aside className="w-[275px] min-h-screen px-2">
+      <aside className="w-[268px] min-h-screen">
          <Logo />
          <Menu />
          <Account />
