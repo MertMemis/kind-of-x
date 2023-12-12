@@ -8,7 +8,7 @@ export default function Account () {
    const account = useAccount()
 
    return(
-      <div className=" mt-auto ">
+      <div className=" mt-auto">
          <Popover className="relative">
             <Popover.Button 
                className="my-3 p-3 rounded-full hover:bg-[#eff3f41a] transition-colors w-full flex text-left items-center outline-none"
