@@ -133,6 +133,13 @@ export const mainMenu = [
 
    {
       path: '/messages',
+      title:'Messages',
+      notification: 1,
+      icon: {
+         active: (
+            <svg viewBox="0 0 24 24" width={26.25} height={26.25}>
+               <path
+                  fill="#fff"
 
    {
       path: '/lists',
