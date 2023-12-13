@@ -35,7 +35,6 @@ export default function Search () {
                   />
                </svg>
             </div>
-            <input type="text" className=" w-full h-full bg-transparent rounded-full outline-none pl-[56px] text-[15px] focus-within:bg-black" />
          </label>
       </div>
    )
