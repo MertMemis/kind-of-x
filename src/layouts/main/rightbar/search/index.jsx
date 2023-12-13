@@ -1,3 +1,6 @@
+import { useRef, useState } from "react"
+import { useClickAway } from "react-use"
+
 export default function Search () {
 
    
