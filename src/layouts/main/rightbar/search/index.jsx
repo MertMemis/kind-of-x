@@ -35,6 +35,17 @@ export default function Search () {
                   />
                </svg>
             </div>
+            <input 
+               type ="text" 
+               className =" w-full h-full bg-transparent placeholder-[#71767b] rounded-full outline-none pl-[56px] text-[15px] focus-within:bg-black" 
+               placeholder="Search"
+               value = {query}
+               onChange={e => setQuery(e.target.value)}
+               onFocus = {onfcsFunction}
+               onBlur={onblrFunction}
+            />
+            {(query && focus) && (
+               <button 
          </label>
       </div>
    )
