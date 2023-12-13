@@ -46,6 +46,17 @@ export default function Search () {
             />
             {(query && focus) && (
                <button 
+                  type="button"
+                  onClick={() => setQuery('')}
+                  className=" w-[22px] h-[22px] rounded-full bg-[#1d9bf0] flex items-center justify-center text-black min-w-[22px] right-3 absolute top-1/2 -translate-y-1/2 "
+               >
+                  <svg viewBox="0 0 15 15" width={10} height={10}>
+                     <path 
+                        fill="currentColor"
+                        d="M 6.09 7.5 L 0.04 1.46 L 1.46 0.04 L 7.5 6.09 L 13.54 0.04 l 1.42 1.42 L 8.91 7.5 l 6.05 6.04 l -1.42 1.42 L 7.5 8.91 l -6.04 6.05 l -1.42 -1.42 L 6.09 7.5 Z" 
+                     />
+                  </svg>
+               </button>
          </label>
       </div>
    )
