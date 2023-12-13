@@ -280,3 +280,32 @@ export const mainMenu = [
 
     
 ]
+
+export const topics = [
+   
+   {
+      title: 'Entertainment · Trending',
+      topic: {
+         type: 'query',
+         value: 'Radahn Festival'
+      },
+      postCount: 96359
+   },
+
+   {
+      title: 'Trending in Lands Between',
+      topic: {
+         type: 'tag',
+         value: 'freemiquella'
+      }
+   },
+
+   {
+      title: 'Trending in Caelid',
+      topic: {
+         type: 'tag',
+         value: 'WeAreRotting'
+      },
+      postCount: 5482
+   },
+]
