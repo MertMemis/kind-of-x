@@ -57,7 +57,16 @@ export default function Search () {
                      />
                   </svg>
                </button>
+            )}
          </label>
+         
+         {focus && (
+               <div className=" absolute top-full w-[350px] -translate-y-1 bg-black shadow-box text-center min-h-[100px] max-h-[calc(80vh -53px)] rounded-lg">
+                  <p className=" p-3 pt-5 text-[#71767b]">
+                     Try searching for people, lists, or keywords
+                  </p>
+               </div>
+            )}
       </div>
    )
 }
