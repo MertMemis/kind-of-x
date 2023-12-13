@@ -7,6 +7,20 @@ export default function Search () {
    const [changeColor, setChangeColor] = useState('#71767b')
    const [focus, setFocus] = useState (false)
    
+   const ref = useRef()
+   useClickAway(ref, () => {
+      setFocus(false)
+   })
+
+
+   function onfcsFunction() {
+      setFocus(true);
+      setChangeColor('#1d9bf0');
+   }
+
+   function onblrFunction() {
+      setChangeColor('#71767b');
+   }
 
    return (
       <div className=" min-h-[32px] h-[53px] mb-3 flex items-center">
