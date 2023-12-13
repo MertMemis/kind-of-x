@@ -3,6 +3,9 @@ import { useClickAway } from "react-use"
 
 export default function Search () {
 
+   const [query, setQuery] = useState('')
+   const [changeColor, setChangeColor] = useState('#71767b')
+   const [focus, setFocus] = useState (false)
    
 
    return (
