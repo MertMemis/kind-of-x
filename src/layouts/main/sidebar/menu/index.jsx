@@ -12,7 +12,7 @@ export default function Menu() {
 	const account = useAccount()
 
 	return (
-		<nav className="mt-0.5 mb-1" key={account}>
+		<nav key={account}>
 			{mainMenu.map((menu, index) => (
 				<NavLink key={index} to={typeof menu.path === 'function' ? menu.path() : menu.path} className="block group">
 					{({isActive}) =>(
