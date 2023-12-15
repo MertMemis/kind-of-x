@@ -1,6 +1,13 @@
 import { Link } from "react-router-dom"
 import PropTypes from "prop-types"
 
+export default function SidebarSection({ title, children, more }) {
+   return (
+      <section className="bg-[#16181c] mb-4 rounded-2xl border border-[#16181c]">
+         
+         <h5 className=" py-3 px-4 text-xl text-[#e7e9ea] leading-6 font-extrabold flex items-center">
+            {title}   
+         </h5>
          <div className="grid">
             {children}
          </div>
