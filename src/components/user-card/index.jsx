@@ -14,3 +14,25 @@ export default function UserCard({ user }) {
 						{user.fullName}
 					</div>
 					<div className="text-[color:var(--color-base-secondary)] truncate">@{user.username}</div>
+				</div>
+			</div>
+			<div>
+				{following ? (
+					<Button
+						variant="white-outline"
+						size="small"
+						onClick={() => setFollowing(false)}
+						className="whitespace-nowrap group"
+					>
+						<div className="flex group-hover:hidden">Following</div>
+						<div className="hidden group-hover:flex">Unfollow</div>
+					</Button>
+				) : (
+					<Button variant="white" size="small" onClick={() => setFollowing(true)}>
+						Follow
+					</Button>
+				)}
+			</div>
+		</button>
+	)
+}
