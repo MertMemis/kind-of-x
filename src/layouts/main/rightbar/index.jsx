@@ -10,6 +10,8 @@ export default function RightBar() {
 			<Search />
 			<Premium />
 			<Topics />
+			<WhoToFollow />
+			<Footer />
 		</aside>
 	)
 }
