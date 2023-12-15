@@ -2,6 +2,15 @@ import { Popover } from "@headlessui/react";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
+   return(
+      <footer className=" mb-4 px-4 flex flex-wrap gap-2">
+         <Link className="text-[#71767b] leading-4 text-[14px] hover:underline" to="/">Terms of Service</Link>
+         <Link className="text-[#71767b] leading-4 text-[14px] hover:underline" to="/">Privacy Policy</Link>
+         <Link className="text-[#71767b] leading-4 text-[14px] hover:underline" to="/">Cookie Policy</Link>
+         <Link className="text-[#71767b] leading-4 text-[14px] hover:underline" to="/">Imprint</Link>
+         <Link className="text-[#71767b] leading-4 text-[14px] hover:underline" to="/">Accessibility</Link>
+         <Link className="text-[#71767b] leading-4 text-[14px] hover:underline" to="/">Ads info</Link>
+         <div className=" w-full flex gap-2">
             <Popover className="relative leading-4">
                <Popover.Button 
                   className="text-[#71767b] text-[14px] hover:underline outline-none inline-flex items-center">
