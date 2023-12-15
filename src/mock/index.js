@@ -11,3 +11,13 @@ export const whoToFlwUsers = [
       username: 'PatchesTheUntethered',
       fullName: 'Patches',
       avatar: 'https://assetsio.reedpopcdn.com/elden-ring-patches-3-(1).png?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp'
+   },
+
+   {
+      id: 5,
+      username: 'starscourge',
+      fullName: 'General Radahn',
+      avatar: 'https://pbs.twimg.com/profile_images/1660346464780918785/X0LJpNhz_400x400.jpg',
+      verified: true
+   }
+]
