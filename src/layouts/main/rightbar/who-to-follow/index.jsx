@@ -3,3 +3,7 @@ import UserCard from "../../../../components/user-card";
 import { whoToFlwUsers } from "../../../../mock";
 import {useAccount} from "../../../../store/auth/hooks";
 
+export default function WhoToFollow() {
+
+   const account = useAccount()
+
