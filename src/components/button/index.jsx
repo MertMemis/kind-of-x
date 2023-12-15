@@ -2,9 +2,10 @@ import classNames from "classnames";
 import { createElement } from "react";
 import PropTypes from 'prop-types';
 
-export default function Button({ size, children }) {
-   return createElement('button', {
-      className: classNames("bg-[#1d9bf0] rounded-full flex items-center justify-center font-bold hover:bg-[#1a8cd8] transition-colors", {
+export default function Button({ as, size, variant, className, children, ...props }) {
+   return createElement(as, {
+      className: classNames("rounded-full flex items-center justify-center font-bold transition-colors", {
+         "px-4 h-8 text-sm": size === 'small',
          "px-4 h-9": size === 'normal',
          "px-4 text-[17px] h-[52px] w-[90%]": size === 'large'
       })
