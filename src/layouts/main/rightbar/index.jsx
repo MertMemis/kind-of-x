@@ -1,6 +1,8 @@
 import Topics from "./topics";
 import Premium from "./premium";
 import Search from "./search";
+import WhoToFollow from "./who-to-follow";
+import Footer from "./footer";
 
 export default function RightBar() {
 	return (
