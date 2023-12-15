@@ -18,7 +18,11 @@ export default function Button({ as, size, variant, className, children, ...prop
 }
 
 Button.propTypes = {
-   size: PropTypes.oneOf(['normal', 'large'])
+   as: PropTypes.any,
+   size: PropTypes.oneOf(['small', 'normal', 'large']),
+   variant: PropTypes.oneOf(['primary', 'white', 'white-outline']),
+   props: PropTypes.object,
+   className: PropTypes.string
 }
 
 Button.defaultProps = {
