@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Sidebar from "./sidebar";
 import RightBar from "./rightbar";
 import { useModal } from "../../store/modal/hooks";
+import Modal from "../../modals";
 
 export default function MainLayout() {
    return (
