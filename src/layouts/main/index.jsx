@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from "./sidebar";
 import RightBar from "./rightbar";
+import { useModal } from "../../store/modal/hooks";
 
 export default function MainLayout() {
    return (
