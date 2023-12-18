@@ -139,6 +139,7 @@ export default function More() {
 							   Help center
 						   </Link>
 
+						   <button 
 							   <svg viewBox="0 0 24 24" width={18.75} height={18.75} >
 								   <path 
 									   fill="currentColor"
