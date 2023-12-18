@@ -140,6 +140,7 @@ export default function More() {
 						   </Link>
 
 						   <button 
+								onClick={() => setModal('display')}
 							   <svg viewBox="0 0 24 24" width={18.75} height={18.75} >
 								   <path 
 									   fill="currentColor"
