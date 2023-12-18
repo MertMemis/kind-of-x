@@ -4,6 +4,7 @@ import RightBar from "./rightbar";
 import { useModal } from "../../store/modal/hooks";
 import Modal from "../../modals";
 
+
 export default function MainLayout() {
    return (
       <div className="w-[1265px] mx-auto flex">
