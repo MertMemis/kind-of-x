@@ -8,18 +8,18 @@ export default function Topic({ item }) {
          to="/"
          className=" py-3 px-4 transition-colors hover:bg-white/[0.03] relative"
       >
-         <div className=" text-[13px] text-[#71767b] leading-4">{item.title}</div>
-         <div className=" text-[15px] font-bold leading-5 mt-0.5">
+         <div className=" text-[13px] text-[color:var(--color-base-secondary)] leading-4">{item.title}</div>
+         <div className=" text-[15px]   font-bold leading-5 mt-0.5">
             {item.topic.type === 'tag' && '#'}{item.topic.value}
          </div>
          {item?.postCount && (
-            <div className=" text-[13px] mt-1 leading-4 text-[#71767b]">
+            <div className=" text-[13px] mt-1 leading-4 text-[color:var(--color-base-secondary)]">
                {numberFormat(item.postCount)} posts
             </div>
          )}
 
          <Popover className="absolute top-1.5 right-2 focus-within:z-[2]">
-            <Popover.Button className=" outline-none w-[34.75px] h-[34.75px] rounded-full flex items-center justify-center hover:bg-[#1d9bf01a] hover:text-[#1d9bf0] transition-colors">
+            <Popover.Button className=" outline-none w-[34.75px] h-[34.75px] rounded-full flex items-center justify-center hover:bg-[color:var(--color-primary)1a] hover:text-[color:var(--color-primary)] transition-colors">
             <svg viewBox="0 0 24 24" width={18.75} height={18.75}>
                <path 
                   fill="CurrentColor"
@@ -28,8 +28,8 @@ export default function Topic({ item }) {
             </svg>
             </Popover.Button>
 
-            <Popover.Panel className= "w-[384px] absolute top-2 overflow-hidden right-0 grid bg-black shadow-box rounded-xl">
-               <button type="button" className=" text-left py-3 px-4 flex items-center hover:bg-white/[0.1] transition-colors gap-3 text-[15px] text-[#e7e9ea] leading-5 font-bold">
+            <Popover.Panel className= "w-[384px] absolute top-2 overflow-hidden right-0 grid bg-[color:var(--background-primary)] shadow-box rounded-xl">
+               <button type="button" className=" text-left py-3 px-4 flex items-center hover:bg-white/[0.1] transition-colors gap-3 text-[15px]   leading-5 font-bold">
                   <svg viewBox="0 0 24 24" width={18.75} height={18.75}>
                      <path 
                         fill="CurrentColor"
@@ -38,7 +38,7 @@ export default function Topic({ item }) {
                   </svg>
                   Not interested in this
                </button>
-               <button type="button" className=" text-left py-3 px-4 flex items-center hover:bg-white/[0.1] transition-colors gap-3 text-[15px] text-[#e7e9ea] leading-5 font-bold">
+               <button type="button" className=" text-left py-3 px-4 flex items-center hover:bg-white/[0.1] transition-colors gap-3 text-[15px]   leading-5 font-bold">
                   <svg viewBox="0 0 24 24" width={18.75} height={18.75}>
                      <path 
                         fill="CurrentColor"
@@ -52,4 +52,3 @@ export default function Topic({ item }) {
       </Link>
    )
 }
-
