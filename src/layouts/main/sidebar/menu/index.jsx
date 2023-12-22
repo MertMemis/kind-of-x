@@ -17,13 +17,13 @@ export default function Menu() {
 				<NavLink key={index} to={typeof menu.path === 'function' ? menu.path() : menu.path} className="block group">
 					{({isActive}) =>(
 
-						<div className={classNames("p-3 rounded-full transition-colors inline-flex items-center gap-5 group-hover:bg-[#eff3f41a]", {
+						<div className={classNames("p-3 rounded-full   transition-colors inline-flex items-center gap-5 group-hover:bg-[color:var(--background-third)]", {
 							"font-bold": isActive
 						})}>
 
 							<div className="w-[1.641rem] h-[1.641rem] relative">
 
-								{menu?.notification && <span className="w-[1.125rem] h-[1.125rem] rounded-full bg-[#1d9bf0] absolute text-[11px] -top-1.5 -right-1 flex items-center justify-center">{menu.notification}</span>}
+								{menu?.notification && <span className="w-[1.125rem] h-[1.125rem] rounded-full text-[color:var(--background-primary)] border border-[color:var(--background-primary)] bg-[color:var(--color-primary)] absolute text-[11px] -top-1.5 -right-1 flex items-center justify-center">{menu.notification}</span>}
 
 								{isActive && menu.icon.active}
 								{!isActive && menu.icon.passive}
