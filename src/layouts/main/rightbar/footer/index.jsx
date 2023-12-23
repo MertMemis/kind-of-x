@@ -27,7 +27,7 @@ export default function Footer() {
                      About
                   </Link>
 
-                  <Link to="/" className=" py-3 px-4 text-white text-[15px] leading-5 transition-colors hover:bg-[color:var(--background-secondary)]">
+                  <Link to="/" className=" py-3 px-4 text-[15px] leading-5 transition-colors hover:bg-[color:var(--background-secondary)]">
                      Download the X app
                   </Link>
 
