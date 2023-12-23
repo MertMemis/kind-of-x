@@ -35,7 +35,7 @@ export default function Footer() {
                      Status
                   </Link>
 
-                  <Link to="/" className=" py-3 px-4 text-white text-[15px] leading-5 transition-colors hover:bg-[color:var(--background-secondary)]">
+                  <Link to="/" className=" py-3 px-4 text-[15px] leading-5 transition-colors hover:bg-[color:var(--background-secondary)]">
                      X for Business
                   </Link>
 
