@@ -18,6 +18,7 @@ export default function MainLayout() {
       document.documentElement.style.setProperty('--background-primary', display.backgroundColor.primary)
       document.documentElement.style.setProperty('--background-secondary', display.backgroundColor.secondary)
       document.documentElement.style.setProperty('--background-third', display.backgroundColor.third)
+      document.documentElement.style.setProperty('--background-modal', display.backgroundColor.modal)
       
       document.documentElement.style.setProperty('--color-primary', display.color.primary)
       document.documentElement.style.setProperty('--color-secondary', display.color.secondary)
