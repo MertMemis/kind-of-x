@@ -39,7 +39,7 @@ export default function Footer() {
                      X for Business
                   </Link>
 
-                  <Link to="/" className=" py-3 px-4 text-white text-[15px] leading-5 transition-colors hover:bg-[color:var(--background-secondary)]">
+                  <Link to="/" className=" py-3 px-4 text-[15px] leading-5 transition-colors hover:bg-[color:var(--background-secondary)]">
                      Developers
                   </Link>
                </Popover.Panel>
