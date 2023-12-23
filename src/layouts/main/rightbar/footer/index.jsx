@@ -23,7 +23,7 @@ export default function Footer() {
                   </svg>
                </Popover.Button>
                <Popover.Panel className="w-[150px] max-w-[384px] absolute rounded-xl bottom-0 right-0 bg-[color:var(--background-primary)] shadow-box grid overflow-hidden">
-                  <Link to="/" className=" py-3 px-4 text-white text-[15px] leading-5 transition-colors hover:bg-[color:var(--background-secondary)]">
+                  <Link to="/" className=" py-3 px-4 text-[15px] leading-5 transition-colors hover:bg-[color:var(--background-secondary)]">
                      About
                   </Link>
 
