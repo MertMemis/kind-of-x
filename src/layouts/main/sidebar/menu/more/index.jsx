@@ -7,7 +7,7 @@ export default function More() {
 	return(
 		<Popover className="relative  ">
 
-			<Popover.Button className="py-[3px] group w-full outline-none">
+			<Popover.Button className="py-[3px] group w-full text-left outline-none">
 
 				<div className="p-3 rounded-full transition-colors float-left inline-flex items-center gap-5 group-hover:bg-[color:var(--background-third)]">
 				
