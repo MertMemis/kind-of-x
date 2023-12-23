@@ -1,6 +1,6 @@
-import classNames from "classnames"
-import { useAccount, useAccounts } from "../../../../../store/auth/hooks"
-import { setCurrentAccount } from "../../../../../store/auth/actions"
+import classNames from "classnames";
+import { useAccount, useAccounts } from "../../../../../store/auth/hooks";
+import { setCurrentAccount } from "../../../../../store/auth/actions";
 
 export default function AccPanel ({ close }) {
 
@@ -18,7 +18,7 @@ export default function AccPanel ({ close }) {
                close()
             }}
             className={classNames("py-3 px-4 flex items-center text-left origin-top transition-color w-full", {
-               "hover:bg-[#eff3f41a]": currentAccount.id !== account.id
+               "hover:bg-[color:var(--background-secondary)]": currentAccount.id !== account.id
             })}>
                <img src={account.avatar} className="w-10 h-10 rounded-full" alt=""/>
                <div className="mx-3 flex-1 text-[15px]">
@@ -36,16 +36,16 @@ export default function AccPanel ({ close }) {
 					)}
             </button>
          ))}
-         <div className=" h-px bg-[#2f3336] my-3" />
-         <button className=" py-3 px-4 text-left font-bold transition-color hover:bg-[#eff3f41a] w-full text-[15px] leading-[20px]">
+         <div className=" h-px bg-[color:var(--background-third)] my-3" />
+         <button className=" py-3 px-4 text-left font-bold transition-color hover:bg-[color:var(--background-secondary)] w-full text-[15px] leading-[20px]">
                   Add an existing account
          </button>
 
-         <button className=" py-3 px-4 text-left font-bold transition-color hover:bg-[#eff3f41a] w-full text-[15px] leading-[20px]">
+         <button className=" py-3 px-4 text-left font-bold transition-color hover:bg-[color:var(--background-secondary)] w-full text-[15px] leading-[20px]">
                   Manage accounts
          </button>
 
-         <button className=" py-3 px-4 text-left font-bold transition-color hover:bg-[#eff3f41a] w-full text-[15px] leading-[20px]">
+         <button className=" py-3 px-4 text-left font-bold transition-color hover:bg-[color:var(--background-secondary)] w-full text-[15px] leading-[20px]">
                   <div className=" max-w-[228px]">
                   Log out @{currentAccount.username}
                   </div>
