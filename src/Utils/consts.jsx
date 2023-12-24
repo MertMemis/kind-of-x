@@ -97,7 +97,7 @@ export const mainMenu = [
       notification: 4,
       icon: {
          active: (
-            <svg viewBox="0 0 24 24" width={26.25} height={26.25}>
+            <svg viewBox="0 0 24 24" className="h-[1.641rem]">
                <path
                   fill="currentColor"
                         d="M 11.996 2 c -4.062 0 -7.49 3.021 
