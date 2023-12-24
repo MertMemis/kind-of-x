@@ -71,7 +71,7 @@ export const mainMenu = [
             ),
 
             passive: (
-                <svg viewBox="0 0 24 24" width={26.25} height={26.25}>
+                <svg viewBox="0 0 24 24" className="h-[1.641rem]">
                     <path
                         fill="currentColor"
                         d="M 10.25 3.75 c -3.59 0 -6.5 2.91 
