@@ -161,7 +161,7 @@ export const mainMenu = [
       title: 'Lists',
       icon: {
          active: (
-            <svg viewBox="0 0 24 24" width={26.25} height={26.25}>
+            <svg viewBox="0 0 24 24" className="h-[1.641rem]">
                <path
                   fill="currentColor"
                   d="M 18.5 2 h -13 C 4.12 2 3 3.12 3 4.5 v 15 C 3 20.88 4.12 22 5.5 22 h 13 c 1.38 0 2.5 -1.12 2.5 -2.5 v -15 C 21 3.12 19.88 2 18.5 2 Z M 16 14 H 8 v -2 h 8 v 2 Z m 0 -4 H 8 V 8 h 8 v 2 Z"
