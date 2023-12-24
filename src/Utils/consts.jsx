@@ -185,7 +185,7 @@ export const mainMenu = [
       title: 'Bookmarks',
       icon: {
          active: (
-            <svg viewBox="0 0 24 24" width={26.25} height={26.25}>
+            <svg viewBox="0 0 24 24" className="h-[1.641rem]">
                <path
                   fill="currentColor"
                   d="M 4 4.5 C 4 3.12 5.119 2 6.5 2 h 11 C 18.881 2 20 3.12 20 4.5 v 18.44 l -8 -5.71 l -8 5.71 V 4.5 Z"
