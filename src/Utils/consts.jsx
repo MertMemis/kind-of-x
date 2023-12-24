@@ -54,7 +54,7 @@ export const mainMenu = [
         title:'Explore',
         icon: {
             active: (
-                <svg viewBox="0 0 24 24" width={26.25} height={26.25}>
+                <svg viewBox="0 0 24 24" className="h-[1.641rem]">
                     <path
                         fill="currentColor"
                         d="M 10.25 4.25 c -3.314 0 -6 2.686 
