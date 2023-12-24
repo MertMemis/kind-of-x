@@ -14,7 +14,7 @@ export default function Menu() {
 	return (
 		<nav key={account}>
 			{mainMenu.map((menu, index) => (
-				<NavLink key={index} to={typeof menu.path === 'function' ? menu.path() : menu.path} className="block group">
+				<NavLink key={index} to={typeof menu.path === 'function' ? menu.path() : menu.path} className=" py-[0.188rem] block group">
 					{({isActive}) =>(
 
 						<div className={classNames("p-3 rounded-full   transition-colors inline-flex items-center gap-5 group-hover:bg-[color:var(--background-third)]", {
@@ -23,7 +23,7 @@ export default function Menu() {
 
 							<div className="w-[1.641rem] h-[1.641rem] relative">
 
-								{menu?.notification && <span className="w-[1.125rem] h-[1.125rem] rounded-full text-white border border-[color:var(--background-primary)] bg-[color:var(--color-primary)] absolute text-[11px] -top-1.5 -right-1 flex items-center justify-center">{menu.notification}</span>}
+								{menu?.notification && <span className="w-[1.125rem] h-[1.125rem] rounded-full text-white border border-[color:var(--background-primary)] bg-[color:var(--color-primary)] absolute text-[0.688rem] -top-1.5 -right-1 flex items-center justify-center">{menu.notification}</span>}
 
 								{isActive && menu.icon.active}
 								{!isActive && menu.icon.passive}
