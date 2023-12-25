@@ -18,6 +18,7 @@ export default function Home() {
 				</StickyHeader>
 				<Tab.Content id="for-you">
 					1. content
+				</Tab.Content>
         
    )
 }
