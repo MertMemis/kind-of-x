@@ -16,6 +16,7 @@ export default function Home() {
 							Takip edilenler
 						</Tab.Item>
 					</Tab.Items>
+				</StickyHeader>
         
    )
 }
