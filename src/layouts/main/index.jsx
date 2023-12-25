@@ -16,6 +16,7 @@ export default function MainLayout() {
    useEffect(() => {
       
       document.documentElement.style.setProperty('--background-primary', display.backgroundColor.primary)
+      document.documentElement.style.setProperty('--background-primary-alpha', display.backgroundColor.primaryAlpha)
       document.documentElement.style.setProperty('--background-secondary', display.backgroundColor.secondary)
       document.documentElement.style.setProperty('--background-third', display.backgroundColor.third)
       document.documentElement.style.setProperty('--background-modal', display.backgroundColor.modal)
