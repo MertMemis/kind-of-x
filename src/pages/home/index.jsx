@@ -1,4 +1,3 @@
-import MainLayout from "../../layouts/main";
 import StickyHeader from "../../components/sticky-header";
 import Tab from "../../components/tab";
 
