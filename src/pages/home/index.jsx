@@ -15,6 +15,7 @@ export default function Home() {
 						<Tab.Item id="followings">
 							Takip edilenler
 						</Tab.Item>
+					</Tab.Items>
         
    )
 }
