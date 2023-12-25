@@ -23,3 +23,11 @@ export default function Item({ children, id }) {
 					<div className="h-[4px] absolute bottom-0 left-0 w-full rounded-full bg-[color:var(--color-primary)]"/>
 				)}
 			</div>
+		</button>
+	)
+}
+
+Item.propTypes = {
+	children: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+	id: PropTypes.string
+}
