@@ -23,6 +23,7 @@ export default function Home() {
 					2. content
 				</Tab.Content>
 			</Tab>
+		</>
         
    )
 }
