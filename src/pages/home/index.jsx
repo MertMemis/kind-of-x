@@ -17,6 +17,7 @@ export default function Home() {
 					</Tab.Items>
 				</StickyHeader>
 				<Tab.Content id="for-you">
+					1. content
         
    )
 }
