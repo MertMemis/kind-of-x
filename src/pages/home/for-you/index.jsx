@@ -15,3 +15,11 @@ export default function ForYou() {
 			onRangeChange={(start, end) => {
 				console.log('end', end + 1)
 				if (end + 1 === posts.length) {
+					setPosts(prev => [...prev, ...postData])
+				}
+			}}
+		>
+			{posts.map((post, key) => <Post post={post} key={post.id + key} />)}
+		</WVList>
+   )
+}
