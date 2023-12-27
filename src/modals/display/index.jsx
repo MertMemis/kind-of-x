@@ -164,7 +164,6 @@ export default function DisplayModal({ close }) {
                         setBackgroundColor({
                            name: 'dim',
                            primary: '#15202b',
-                           primaryAlpha: '#15202ba6',
                            secondary: '#1e2732',
                            third: '#263340',
                            modal: '#5b708366'
