@@ -1,5 +1,6 @@
 import StickyHeader from "../../components/sticky-header";
 import Tab from "../../components/tab";
+import ForYou from "./for-you";
 
 
 export default function Home() {
