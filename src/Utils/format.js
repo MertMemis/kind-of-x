@@ -6,5 +6,5 @@ export const numberFormat = value => {
 			maximumFractionDigits: 1
 		}
 	}
-	return Intl.NumberFormat('en', config).format(value)
+	return Intl.NumberFormat('en', config).format(value);
 }
