@@ -126,8 +126,7 @@ export default function DisplayModal({ close }) {
                         })
                         setBackgroundColor({
                            name: 'light',
-                           primary: '#fff',
-                           primaryAlpha: '#ffffffa6',
+                           primary: '#ffffff',
                            secondary: '#f7f9f9',
                            third: '#eff3f4',
                            modal: '#00000066'
