@@ -13,7 +13,7 @@ export default function Home() {
 							For you
 						</Tab.Item>
 						<Tab.Item id="followings">
-							Takip edilenler
+							Followings
 						</Tab.Item>
 					</Tab.Items>
 				</StickyHeader>
