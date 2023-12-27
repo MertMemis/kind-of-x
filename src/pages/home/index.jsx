@@ -7,7 +7,7 @@ export default function Home() {
    return (
       <>
 			<Tab activeTab="followings">
-				<StickyHeader title="Anasayfa">
+				<StickyHeader title="Home">
 					<Tab.Items>
 						<Tab.Item id="for-you">
 							Sana özel
