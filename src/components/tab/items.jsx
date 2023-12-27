@@ -1,4 +1,4 @@
-export default function Items({children}) {
+export default function Items({ children }) {
 	return (
 		<div className="flex">
 			{children}
