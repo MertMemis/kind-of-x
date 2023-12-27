@@ -10,7 +10,7 @@ export default function Home() {
 				<StickyHeader title="Home">
 					<Tab.Items>
 						<Tab.Item id="for-you">
-							Sana özel
+							For you
 						</Tab.Item>
 						<Tab.Item id="followings">
 							Takip edilenler
